@@ -7,6 +7,8 @@ Raspberry Pi 4 B is used as the CPU that runs this python program. It is connect
 
 For Training the ML model I am using MobileNetV2 which is a very small and efficient CNN. You can learn about MobileNetV2 from this link- https://towardsdatascience.com/review-mobilenetv2-light-weight-model-image-classification-8febb490e61c
 
+The Machine Learning model training code is well explained in this YouTube video - https://www.youtube.com/watch?v=Ax6P93r32KU&t=982s 
+
 **Algorithm**
 1. Person places their hand near the IR sensor
 2. When hand is close enough Temp sensor will check their body temp
