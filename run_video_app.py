@@ -18,9 +18,6 @@ import subprocess
 #import threading
 
 
-#thread lock
-#lock = threading.Lock()
-
 #initialize temperature sensor bus and gpio
 bus = SMBus(1)
 sensor = MLX90614(bus, address=0x5a)
