@@ -2,6 +2,7 @@
 This project is made to avoid customers/people who are not wearing mask. The system checks people for mask and temperature at the entrance before opening the door.   
 
 Using Python and Machine Learning the program is able to distinguish between people wearing mask and people not wearing mask. 
+In the "using-azure-iot" branch a file named "iot-mask-detect.py" has the implementation of Azure IoT Hub and Blob storage. 
 
 Raspberry Pi 4 B is used as the CPU that runs this python program. It is connected with Pi camera for video capture, temperature sensor, servo motor that acts as a gate and LEDs to indicate mask status.
 
